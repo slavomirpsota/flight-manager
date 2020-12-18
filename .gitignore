@@ -1,0 +1,24 @@
+#for backward compatibility
+**/.classpath
+**/.project
+**/.settings
+
+**/*.iml
+**/*.idea
+
+**/target
+**/bin
+
+*.factorypath
+*.classpath
+*.project
+*.settings
+*.log
+
+*.iml
+*.idea
+
+bin
+target
+target/
+**/.factorypath

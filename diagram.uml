@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="341.21123866213145" y="1306.0">nl.davinci.example.airline.manager.FlightManagerTest</node>
+    <node x="0.0" y="45.5">nl.davinci.example.airline.manager.model.seat.SeatAlreadyTakenException</node>
+    <node x="19.112032312925123" y="1350.5">nl.davinci.example.airline.manager.model.flight.FlightTest</node>
+    <node x="289.9195719954649" y="289.5">nl.davinci.example.airline.manager.model.seat.NoSeatAvailableException</node>
+    <node x="53.132865646258495" y="960.0">nl.davinci.example.airline.manager.model.flight.FlightBuilder</node>
+    <node x="419.8362386621315" y="1005.0">nl.davinci.example.airline.manager.FlightManager</node>
+    <node x="91.91957199546488" y="200.0">nl.davinci.example.airline.manager.model.seat.Seat</node>
+    <node x="300.7906037414965" y="468.0">nl.davinci.example.airline.manager.model.flight.Section</node>
+    <node x="290.8362386621315" y="626.0">nl.davinci.example.airline.manager.model.flight.Flight</node>
+    <node x="420.8710317460317" y="0.0">nl.davinci.example.airline.manager.model.flight.Grade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightBuilder" target="nl.davinci.example.airline.manager.model.flight.Flight">
+      <point x="71.42857142857144" y="-148.0" />
+      <point x="249.56143707482994" y="930.0" />
+      <point x="310.0029053287982" y="930.0" />
+      <point x="-95.83333333333334" y="137.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Flight" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="95.83333333333337" y="-137.0" />
+      <point x="501.6695719954649" y="606.0" />
+      <point x="560.0406037414965" y="606.0" />
+      <point x="560.0406037414965" y="180.0" />
+      <point x="554.1210317460317" y="180.0" />
+      <point x="51.25" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManager" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="118.875" y="-104.0" />
+      <point x="699.2112386621316" y="940.0" />
+      <point x="630.9612386621316" y="940.0" />
+      <point x="630.9612386621316" y="180.0" />
+      <point x="574.6210317460317" y="180.0" />
+      <point x="71.75" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightTest" target="nl.davinci.example.airline.manager.model.seat.Seat">
+      <point x="-23.25" y="-26.5" />
+      <point x="88.86203231292512" y="1276.0" />
+      <point x="41.382865646258495" y="1276.0" />
+      <point x="41.382865646258495" y="448.0" />
+      <point x="103.04457199546488" y="448.0" />
+      <point x="-77.875" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightBuilder" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="-71.42857142857144" y="-148.0" />
+      <point x="106.70429421768705" y="940.0" />
+      <point x="81.41957199546488" y="940.0" />
+      <point x="81.41957199546488" y="170.0" />
+      <point x="472.1210317460317" y="170.0" />
+      <point x="-30.75" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightTest" target="nl.davinci.example.airline.manager.model.flight.FlightBuilder">
+      <point x="23.25" y="-26.5" />
+      <point x="135.36203231292512" y="1286.0" />
+      <point x="115.6328656462585" y="1286.0" />
+      <point x="-62.5" y="148.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.seat.Seat" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="44.5" y="-104.0" />
+      <point x="225.41957199546488" y="180.0" />
+      <point x="492.6210317460317" y="180.0" />
+      <point x="-10.25" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManager" target="nl.davinci.example.airline.manager.model.flight.Flight">
+      <point x="-118.875" y="-104.0" />
+      <point x="461.4612386621315" y="940.0" />
+      <point x="463.3362386621315" y="940.0" />
+      <point x="57.5" y="137.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManagerTest" target="nl.davinci.example.airline.manager.model.flight.Flight">
+      <point x="-28.75" y="-71.0" />
+      <point x="427.46123866213145" y="1286.0" />
+      <point x="411.33623866213145" y="1286.0" />
+      <point x="411.33623866213145" y="940.0" />
+      <point x="425.00290532879814" y="940.0" />
+      <point x="19.16666666666663" y="137.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightTest" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="-69.75" y="-26.5" />
+      <point x="42.36203231292512" y="1286.0" />
+      <point x="30.382865646258495" y="1286.0" />
+      <point x="30.382865646258495" y="150.0" />
+      <point x="431.1210317460317" y="150.0" />
+      <point x="-71.75" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Flight" target="nl.davinci.example.airline.manager.model.flight.Section">
+      <point x="-57.5" y="-137.0" />
+      <point x="348.3362386621315" y="606.0" />
+      <point x="332.45727040816325" y="606.0" />
+      <point x="-63.333333333333314" y="49.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Section" target="nl.davinci.example.airline.manager.model.seat.NoSeatAvailableException">
+      <point x="23.75" y="-49.0" />
+      <point x="419.5406037414965" y="448.0" />
+      <point x="397.9195719954649" y="448.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManager" target="nl.davinci.example.airline.manager.model.seat.Seat">
+      <point x="39.625" y="-104.0" />
+      <point x="619.9612386621316" y="428.0" />
+      <point x="258.7945719954649" y="428.0" />
+      <point x="77.875" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.seat.Seat" target="nl.davinci.example.airline.manager.model.seat.SeatAlreadyTakenException">
+      <point x="-44.5" y="-104.0" />
+      <point x="136.41957199546488" y="140.0" />
+      <point x="111.5" y="140.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightBuilder" target="nl.davinci.example.airline.manager.model.seat.Seat">
+      <point x="0.0" y="-148.0" />
+      <point x="178.1328656462585" y="930.0" />
+      <point x="145.12500000000003" y="930.0" />
+      <point x="145.12500000000003" y="448.0" />
+      <point x="147.54457199546488" y="448.0" />
+      <point x="-33.375" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Section" target="nl.davinci.example.airline.manager.model.flight.Grade">
+      <point x="71.25" y="-49.0" />
+      <point x="467.0406037414965" y="448.0" />
+      <point x="538.0406037414965" y="448.0" />
+      <point x="538.0406037414965" y="180.0" />
+      <point x="513.1210317460317" y="180.0" />
+      <point x="10.25" y="60.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManagerTest" target="nl.davinci.example.airline.manager.model.flight.FlightBuilder">
+      <point x="-86.25" y="-71.0" />
+      <point x="369.96123866213145" y="1276.0" />
+      <point x="240.6328656462585" y="1276.0" />
+      <point x="62.5" y="148.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Section" target="nl.davinci.example.airline.manager.model.seat.Seat">
+      <point x="-71.25" y="-49.0" />
+      <point x="324.5406037414965" y="448.0" />
+      <point x="214.29457199546488" y="448.0" />
+      <point x="33.375" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.FlightManagerTest" target="nl.davinci.example.airline.manager.FlightManager">
+      <point x="28.75" y="-71.0" />
+      <point x="484.96123866213145" y="1286.0" />
+      <point x="501.0862386621315" y="1286.0" />
+      <point x="-79.25" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.Flight" target="nl.davinci.example.airline.manager.model.seat.Seat">
+      <point x="-95.83333333333334" y="-137.0" />
+      <point x="310.0029053287982" y="606.0" />
+      <point x="204.48207199546488" y="606.0" />
+      <point x="204.48207199546488" y="448.0" />
+      <point x="192.04457199546488" y="448.0" />
+      <point x="11.125" y="104.0" />
+    </edge>
+    <edge source="nl.davinci.example.airline.manager.model.flight.FlightTest" target="nl.davinci.example.airline.manager.model.flight.Flight">
+      <point x="69.75" y="-26.5" />
+      <point x="181.86203231292512" y="1286.0" />
+      <point x="400.33623866213145" y="1286.0" />
+      <point x="400.33623866213145" y="940.0" />
+      <point x="386.6695719954648" y="940.0" />
+      <point x="-19.166666666666686" y="137.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1034.0" y="957.0" />
+  <SelectedNodes>
+    <node>nl.davinci.example.airline.manager.FlightManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
